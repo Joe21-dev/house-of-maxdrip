@@ -853,7 +853,9 @@ div.testimonials {
     }
 }
 @media screen and (max-width: 440px) {
-    
+    .section-1{
+        margin-top: 85px;
+    }
     header{
         height: 55px;
         padding: 0 25px 0 30px;
