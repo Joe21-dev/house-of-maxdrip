@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseofMaxDrip</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="team-card.css">
+</head>
+<body class="body">
+    <!-- ===== HEADER SECTION ===== -->
+    
+    <header class="navbar">
+        <div class="logo"><a href="#home">HouseofMaxDrip</a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active-link">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#products">Products</a></li>
+            </ul>
+            <a href="#book-appointment" class="accent-link">Book Now</a>
+            <div class="menu-toggle">
+                <svg class="menu-open" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
+                <svg class="menu-close" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9" style="display: none;"><path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
+            </div>
+        </nav>
+
+    </header>
+    <div class="mobile-menu" id="mobileNavbar">
+        <ul>
+            <li><a href="#home" class="active-link">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#products">Products</a></li>
+        </ul>
+        <a href="#book-appointment" class="accent-link">Book Now</a>
+    </div>
+    <div id="overlay" class="menu-close" onclick="closeSidebar()"></div>
+
+    <!-- ===== HERO SECTION ===== -->
+    <div class="hero-section" id="home">
+            <div class="hero-container">
+            <h2>Reveal Your<br>Natural Beauty</h2>
+            <p>
+                Experience luxury hair & beauty treatments designed to enhance your unique style and make you feel absolutely stunning.
+            </p>
+            <div class="hero-accent-link">
+                <a href="#book-appointment" class="hero-button">Book Appointment</a>
+                <a href="#services" class="hero-button-2">Our Services</a>
+            </div>
+            </div>
+    </div>
+    
+    <main>
+        <div class="section-1">
+            <div class="title">
+            <h2>Meet Our Experts</h2> 
+            <p>Our talented team of professionals is passionate about making you look and feel your best.</p>
+            </div> 
+        <div class="card">
+        <div class="card-details">
+            <img src="assets/images/owino.jpg" alt="">
+            <div class="card__data">
+                    <h2>Salome</h2>
+                    <p>Master Stylist</p>
+            </div>
+
+            <div class="card__clip">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>            
+            </div>
+
+            <div class="info">
+                <div class="info-data">
+                    <h2 class="info__name">Salome</h2>
+                    <p class="info__description">With 3+ years of experience, Salome specializes in natural hair styling, braiding, and protective styles.</p>
+                    <a href="#" class="info__button">Contact Me</a>
+                </div>
+
+                <div class="info__social">
+                        <a href="#" target="_blank" class="info__link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="info__link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="info__link">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <div class="card-details">
+            <img src="assets/images/pretty.jpg" alt="">
+            <div class="card__data">
+                    <h2>Kate</h2>
+                    <p>Senior Stylist</p>
+            </div>
+
+            <div class="card__clip">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>            
+            </div>
+
+            <div class="info">
+                <div class="info-data">
+                    <h2 class="info__name">Kate</h2>
+                    <p class="info__description">Kate creates cutting-edge styles with precision and artistry for all hair types and textures.</p>
+                    <a href="#" class="info__button">Contact Me</a>
+                </div>
+
+                <div class="info__social">
+                        <a href="#" target="_blank" class="info__link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="info__link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="info__link">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <div class="card-details">
+            <img src="assets/images/kate.jpg" alt="">
+            <div class="card__data">
+                    <h2>Sandra</h2>
+                    <p>Nail & Spa Specialist</p>
+            </div>
+
+            <div class="card__clip">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>            
+            </div>
+
+            <div class="info">
+                <div class="info-data">
+                    <h2 class="info__name">Sandra</h2>
+                    <p class="info__description">Sandra creates stunning nail art and provides relaxing spa treatments for a complete pampering experience.</p>
+                    <a href="#" class="info__button">Contact Me</a>
+                </div>
+
+                <div class="info__social">
+                        <a href="#" target="_blank" class="info__link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="info__link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="info__link">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <div class="card-details">
+            <img src="assets/images/sandra.jpg" alt="">
+            <div class="card__data">
+                    <h2>Nancy</h2>
+                    <p>Massage Specialist</p>
+            </div>
+
+            <div class="card__clip">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>            
+            </div>
+            
+            <div class="info">
+                <div class="info-data">
+                    <h2 class="info__name">Nancy</h2>
+                    <p class="info__description">Nancy is passionate about skincare and helping clients achieve their healthiest, most radiant complexion.</p>
+                    <a href="#" class="info__button">Contact Me</a>
+                </div>
+
+                <div class="info__social">
+                        <a href="#" target="_blank" class="info__link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="info__link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="info__link">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                    </div>
+            </div>
+
+            
+        </div>
+       </div>
+       </div>
+       </main>
+
+       <div class="services" id="services">
+        <div class="services__info">
+            <h2>Our Premier Services</h2>
+            <p>Discover our range of luxury beauty and wellness treatments designed to pamper you from head to toe.</p>
+        </div>
+        <div class="grid__container">
+            <div class="services__card">
+                <div>                
+                <div class="service_card_title">
+                    <h2>Hair</h2>
+                    <p>Expert cuts, colors, and styling for all hair types</p>
+                </div>
+                <div class="service">
+                    <div class="service-info">
+                        <p>Women's Haircut</p>
+                        <p>Kshs. 500+</p>
+                    </div>
+                    <div class="service-info">
+                        <p>Men's Haircut</p>
+                        <p>Kshs. 700+</p>
+                    </div>
+                    <div class="service-info">
+                        <p>Color & Highlights</p>
+                        <p>Kshs. 200+</p>
+                    </div>
+                    <div class="service-info">
+                        <p>Beard Cut</p>
+                        <p>Kshs. 350+</p>
+                    </div>
+                    <div class="service-info">
+                        <p>Blowout</p>
+                        <p>Kshs. 300+</p>
+                    </div>
+                    
+                </div>
+                </div>
+                <div class="button">
+                    <button>Book Now</button>
+                </div>
+            </div>
+
+            <div class="services__card">
+                <div>
+                <div class="service_card_title">
+                    <h2>Nails</h2>
+                    <p>Beautiful manicures and pedicures for perfect nails</p>
+                </div>
+                <div class="service">
+                    <div class="service-info">
+                        <p>Classic Manicure</p>
+                        <p>Kshs. 700+</p>
+                    </div>
+                    <div class="service-info">
+                        <p>Gel Manicure</p>
+                        <p>Kshs. 300+</p>
+                    </div>
+                    <div class="service-info">
+                        <p>Classic Pedicure</p>
+                        <p>Kshs. 800+</p>
+                    </div>
+                    <div class="service-info">
+                        <p>Spa Pedicure</p>
+                        <p>Kshs. 350+</p>
+                    </div>
+                    <div class="service-info">
+                        <p>Nail Art (per nail)</p>
+                        <p>Kshs. 100+</p>
+                    </div>
+                    </div>
+                    </div>
+                <div class="button">
+                    <button>Book Now</button>
+                </div>
+            </div>
+
+            <div class="services__card">
+                <div>
+                <div>
+                    <div class="service_card_title">
+                    <h2>Facials</h2>
+                    <p>Rejuvenating treatments for healthy, glowing skin</p>
+                </div>
+                <div class="service">
+                    <div class="service-info">
+                        <p>Express Facial</p>
+                        <p>Kshs. 300+</p>
+                    </div>
+                    <div class="service-info">
+                        <p>Deep Cleansing</p>
+                        <p>Kshs. 200+</p>
+                    </div>
+                    <div class="service-info">
+                        <p>Anti-Aging</p>
+                        <p>Kshs. 400+</p>
+                    </div>
+                    <div class="service-info">
+                        <p>Hydrating</p>
+                        <p>Kshs. 350+</p>
+                    </div>
+                    <div class="service-info">
+                        <p>MakeUp</p>
+                        <p>Kshs. 1200+</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        
+
+        <section class="projects" id="gallery">
+            <div class="projects-details">
+                <h2>Our Work</h2>
+                <p>Browse our gallery showcasing our team's beautiful creations and transformations</p>
+            </div>
+            <div class="project-info">
+                <div class="project">
+                    <img src="assets/images/naturalHairstyle.jpg" alt="">
+                    <div class="project-data">
+                    <h3>Hair</h3>
+                    <p>Natural Hair Styling</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="assets/images/hair2.jpg" alt="">
+                    <div class="project-data">
+                    <h3>Braids</h3>
+                    <p>Braiding Art</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="assets/images/nails.jpg" alt="">
+                    <div class="project-data">
+                    <h3>Nail Art</h3>
+                    <p>Kenyan-Inspired Nail Art</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="assets/images/toeNails.jpg" alt="">
+                    <div class="project-data">
+                    <h3>Nails</h3>
+                    <p>Walk with confidence</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="assets/images/spatreatment.jpg" alt="">
+                    <div class="project-data">
+                    <h3>Spa</h3>
+                    <p>Relaxing Treatment</p>
+                    </div>
+                </div>
+                
+
+                <div class="project">
+                    <img src="assets/images/makeup.jpg" alt="">
+                    <div class="project-data">
+                    <h3>MakeUp</h3>
+                    <p>Morning Glam</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="testimonials">
+                <h2>What Our Clients Say</h2>
+                <p>Hear from our satisfied about their experience</p>
+            <div class="carousel-wrapper">
+            <div class="carousel" id="testimonialCarousel">
+
+                <div class="testimonial__card">
+                    <div class="avatar">
+                        <img src="assets/images/makeup2.jpg" alt="">
+                    </div>
+                    <p class="quote">"The stylists here are amazing! My hair has never looked better. I always feel pampered and leave feeling beautiful."</p>
+                    <p class="name">Joan</p>
+                    <p class="role">Shoe Palace Manager</p>
+                </div>
+
+                <div class="testimonial__card">
+                    <div class="avatar">
+                        <img src="assets/images/hair3.jpg" alt="">
+                    </div>
+                    <p class="quote">"I I'm impressed with your client service , you really take time to ensure I am served as I wanted"</p>
+                    <p class="name">Fiona</p>
+                    <p class="role">Content Creator</p>
+                </div>
+
+                <div class="testimonial__card">
+                    <div class="avatar">
+                        <img src="assets/images/nancy.jpg" alt="">
+                    </div>
+                    <p class="quote">"I love the online booking service. It's so efficient saves me time whenever I visit HouseofMaxDrip"</p>
+                    <p class="name">Lisa</p>
+                    <p class="role">Chef. Ceewal Hotel</p>
+                </div>
+
+                <div class="nav-icons">
+                    <button onclick="scrollCarousel(-1)"><</button>
+                    <button onclick="scrollCarousel(1)">></button>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+
+        <div class="booking" id="book-appointment">
+            <div class="book">
+                <div class="booking-info">
+                    <h2>Book Your Appointment</h2>
+                    <p>Schedule your next beauty session with ease. Choose your preferred stylist, service, and time slot for a personalized experience.</p>
+                </div>
+                <div class="booking-details">
+                    <div class="booking-dataset">
+                        <img src="assets/svg/shield-user.svg" alt="shield" width="25px">
+                    <div class="booking-detail">
+                        <h3>Secure Online Booking</h3>
+                        <p>Our booking system ensures your appointment details are safely stored.</p>
+                    </div>
+                    </div>
+
+                    <div class="booking-dataset">
+                        <img src="assets/svg/location.svg" alt="location" width="25px">
+                    <div class="booking-detail">
+                        <h3>Flexible Shopping</h3>
+                        <p>Book appointments that work with your busy lifestyle.</p>
+                    </div>
+                    </div>
+
+                    <div class="booking-dataset">
+                        <img src="assets/svg/folder-check.svg" alt="folder-check" width="25px">
+                    <div class="booking-detail">
+                        <h3>Email Confirmation</h3>
+                        <p>Receive instant email confirmations and reminders for your appointments.</p>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="form-container">
+                <div class="form-head">
+                    <h2>Book Your Appointment</h2>
+                    <p>Select your service and preferred time</p>
+                </div>
+                <form action="" id="darkForm">
+                    <div class="form-group">
+                        <label for="age">Select Service</label>
+                        <select name="age" id="age">
+                          <option value="">--Select a service--</option>
+                          <option value="hair_cut">Hair Cut & Style</option>
+                          <option value="facials">Facial Treatment</option>
+                          <option value="makeup">MakeUp Application</option>
+                          <option value="Manicure and Pedicure">Manicure and Pedicure</option>
+                        </select>
+                      </div>
+
+                    <div class="time">
+                        <div class="form-group">
+                            <label for="birthDate">Select Date</label>
+                            <input type="date" id="appointmentDate" name="appointmentDate" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="age">Select Time</label>
+                            <input type="time" id="appointmentTime" name="appointmentTime" required>
+                        </div>        
+                    </div>
+
+                    <div class="form-group">
+                        <label for="stylist">Select Stylist(Optional)</label>
+                        <select name="stylist" id="stylist">
+                          <option value="">No Preference</option>
+                          <option value="salome">Salome</option>
+                          <option value="kate">Kate</option>
+                          <option value="sandra">Sandra</option>
+                          <option value="nancy">Nancy</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="username">
+                        Your Name
+                      </label>
+                      <input type="text" id="username" name="username" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="username">
+                          Email Address
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                      </div>
+                    
+                    <button type="submit">Book Appointment</button>
+                  </form>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="contact-title">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Get in touch with us for bookings, inquiries or collaborations</p>
+            </div>
+            <div class="contact-head">
+            
+                <div class="contact-info-2">
+                    <div class="contact-data">
+                        <div class="contact-details">
+                            <h3>Get in Touch</h3>
+                            
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-dataset">
+                                <img src="assets/svg/location.svg" alt="location" width="25px">
+                                <div>
+                                    <p>Moi Avenue, Nairobi</p>
+                                </div>
+                            </div>
+                            <div class="contact-dataset">
+                                <img src="assets/svg/whatsapp-logo-bold.svg" alt="call" width="25px">
+                                <div>
+                                    <p>(254) 721 287 656</p>
+                                </div>
+                            </div>
+                            <div class="contact-dataset">
+                                <img src="assets/svg/gmail.svg" alt="email" width="25px">
+                                <div>
+                                    <p>info@homd.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="contact-form">
+                        <form action="#">
+                        <h2>Send us a message</h2>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                
+            </div>
+        </div>
+            
+    
+   
+    <footer>
+        <div class="footer-section">
+            <div class="social-icons">
+                <h1><a href="#home">HouseofMaxDrip</a></h1>
+                <p>Your destination for premium beauty products and services, with a pampering experience that enhances your natural glow</p>
+                <div class="icons">
+                    <img src="assets/svg/facebook-square-black-icon.svg" alt="" width="25px">
+                    <img src="assets/svg/instagram-167.svg" alt="" width="25px">                    
+                    <img src="assets/svg/tiktok-square-color-icon.svg" alt="" width="25px">
+                    <img src="assets/svg/whatsapp-logo-bold.svg" alt="" width="25px">                    
+                    <img src="assets/svg/x-social-media-logo-icon.svg" alt="" width="25px">                
+                </div>
+            </div>
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="FAQS">
+                <h2>FAQS</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates beatae commodi recusandae odit accusantium non delectus deleniti corporis eum modi. Alias sit quasi sint saepe voluptas quia ut suscipit quaerat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sed ipsa nostrum incidunt tempore ipsum, nulla sunt voluptatum nesciunt eligendi laudantium voluptatibus numquam fugiat non sequi natus facilis nisi aut.</p>
+            </div>
+            <div class="contact-info">
+                <h2>Contact Info</h2>
+                <div class="contact-details">
+                <img src="assets/svg/location.svg" alt="" width="20px">
+                <p>Moi Avenue, Nairobi, Kenya</p>
+                </div>
+                <div class="contact-details">
+                <img src="assets/svg/whatsapp-logo-bold.svg" alt="call" width="20px" >
+                <p>(+254) 722 280 756</p>
+                </div>
+                <div class="contact-details">
+                <img src="assets/svg/gmail.svg" alt="gmail" width="20px">
+                <p>info@homd.com</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy 2025 House of MaxDrip.All Rights Reserved</p>
+            <div class="policy">
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
