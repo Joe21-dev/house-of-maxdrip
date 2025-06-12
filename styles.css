@@ -854,7 +854,8 @@ div.testimonials {
 }
 @media screen and (max-width: 440px) {
     .section-1{
-        margin-top: 225px;
+        margin-top: 525px;
+        padding-top: 400px;
     }
     header{
         height: 55px;
@@ -936,7 +937,9 @@ div.testimonials {
         text-align: center;
         width: auto;
     }
-   
+    .hero-section{
+        margin-bottom: 250px;
+    }
     .hero-section h2{
         font-size: 28px;
     }
