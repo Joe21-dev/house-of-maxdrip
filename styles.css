@@ -938,7 +938,7 @@ div.testimonials {
         width: auto;
     }
     .hero-section{
-        margin-bottom: 250px;
+        margin-bottom: 100px;
     }
     .hero-section h2{
         font-size: 28px;
@@ -946,9 +946,7 @@ div.testimonials {
     .hero-section p{
         font-size: 14px;
     }
-    .section-1 {
-        padding-top: 65px;
-    }
+    
     .close {
         position: absolute;
         top: 30px;
