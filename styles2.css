@@ -6,6 +6,8 @@
     --accent-color:      #9f7aea;  /* Amethyst Purple (Vibrant highlight) */
     --tertiary-color:    #d8b4fe;  /* Orchid Pink (Subtle decorative elements) */
     --text-color:        #3b2f63;  /* Eggplant (Deep, readable purple-gray) */
+
+}
 *{
     margin: 0;
     padding: 0;
